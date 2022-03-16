@@ -264,6 +264,12 @@
 		96E362522673513E00D49D4E /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96E3624F2673513E00D49D4E /* SF-Pro-Rounded-Bold.otf */; };
 		96E362552673536600D49D4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96E362542673536600D49D4E /* GoogleService-Info.plist */; };
 		C6175125A3FBAD6021593F11 /* Pods_CCRN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39858DEFB6A0E8305DC5ECC /* Pods_CCRN.framework */; };
+		DE2B10EF27E1AB66005280DB /* OnboardingScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B10EE27E1AB66005280DB /* OnboardingScope.swift */; };
+		DE2B10F227E1B089005280DB /* SSlideModesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B10F127E1B089005280DB /* SSlideModesView.swift */; };
+		DE2B10F427E1B195005280DB /* SSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B10F327E1B195005280DB /* SSlideView.swift */; };
+		DE2B10F627E1B2C4005280DB /* SSlideReferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B10F527E1B2C4005280DB /* SSlideReferencesView.swift */; };
+		DE2B10F927E1D060005280DB /* DefaultRequestWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B10F827E1D060005280DB /* DefaultRequestWrapper.swift */; };
+		DE2B10FB27E1D071005280DB /* XORRequestWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B10FA27E1D071005280DB /* XORRequestWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -550,6 +556,12 @@
 		96E362542673536600D49D4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A39858DEFB6A0E8305DC5ECC /* Pods_CCRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB714C200E18346EBDB21838 /* Pods-CCRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRN.release.xcconfig"; path = "Target Support Files/Pods-CCRN/Pods-CCRN.release.xcconfig"; sourceTree = "<group>"; };
+		DE2B10EE27E1AB66005280DB /* OnboardingScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScope.swift; sourceTree = "<group>"; };
+		DE2B10F127E1B089005280DB /* SSlideModesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSlideModesView.swift; sourceTree = "<group>"; };
+		DE2B10F327E1B195005280DB /* SSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSlideView.swift; sourceTree = "<group>"; };
+		DE2B10F527E1B2C4005280DB /* SSlideReferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSlideReferencesView.swift; sourceTree = "<group>"; };
+		DE2B10F827E1D060005280DB /* DefaultRequestWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRequestWrapper.swift; sourceTree = "<group>"; };
+		DE2B10FA27E1D071005280DB /* XORRequestWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XORRequestWrapper.swift; sourceTree = "<group>"; };
 		EBD40A1FF7EF288979BF4D67 /* Pods-CCRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRN.debug.xcconfig"; path = "Target Support Files/Pods-CCRN/Pods-CCRN.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -660,6 +672,7 @@
 		96CA36F926BD53E100865CEB /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DE2B10F727E1D057005280DB /* RequestWrapper */,
 				96CA36FA26BD53E100865CEB /* ImagePicker.swift */,
 				96CA36FB26BD53E100865CEB /* Toast.swift */,
 			);
@@ -1055,10 +1068,10 @@
 		96CA377026BD53E100865CEB /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				96CA377126BD53E100865CEB /* SettingsView.swift */,
-				96CA377226BD53E100865CEB /* SettingsViewModel.swift */,
 				96CA377326BD53E100865CEB /* Utils */,
 				96CA377626BD53E100865CEB /* Views */,
+				96CA377126BD53E100865CEB /* SettingsView.swift */,
+				96CA377226BD53E100865CEB /* SettingsViewModel.swift */,
 				96CA378026BD53E100865CEB /* SettingsViewController.swift */,
 			);
 			path = Settings;
@@ -1076,9 +1089,10 @@
 		96CA377626BD53E100865CEB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				96CA377726BD53E100865CEB /* Cells */,
-				96CA377E26BD53E100865CEB /* SettingsTableView.swift */,
-				96CA377F26BD53E100865CEB /* SettingsTableSection.swift */,
+				DE2B10F027E1B068005280DB /* TableView */,
+				DE2B10F127E1B089005280DB /* SSlideModesView.swift */,
+				DE2B10F327E1B195005280DB /* SSlideView.swift */,
+				DE2B10F527E1B2C4005280DB /* SSlideReferencesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1411,8 +1425,9 @@
 		96CA37F626BD53E100865CEB /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				96CA37F726BD53E100865CEB /* OnboardingViewController.swift */,
+				DE2B10ED27E1AA8D005280DB /* Utils */,
 				96CA37F826BD53E100865CEB /* Views */,
+				96CA37F726BD53E100865CEB /* OnboardingViewController.swift */,
 				96CA381A26BD53E100865CEB /* OnboardingView.swift */,
 				96CA381B26BD53E100865CEB /* OnboardingViewModel.swift */,
 			);
@@ -1422,8 +1437,8 @@
 		96CA37F826BD53E100865CEB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				96CA37F926BD53E100865CEB /* OSlideWelcomeView.swift */,
 				96CA37FA26BD53E100865CEB /* Atoms */,
+				96CA37F926BD53E100865CEB /* OSlideWelcomeView.swift */,
 				96CA380D26BD53E100865CEB /* OSlideReferencesView.swift */,
 				96CA380E26BD53E100865CEB /* OPushView.swift */,
 				96CA380F26BD53E100865CEB /* OSlideImproveView.swift */,
@@ -1614,6 +1629,33 @@
 				96CA36D626BD539200865CEB /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE2B10ED27E1AA8D005280DB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B10EE27E1AB66005280DB /* OnboardingScope.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DE2B10F027E1B068005280DB /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				96CA377726BD53E100865CEB /* Cells */,
+				96CA377F26BD53E100865CEB /* SettingsTableSection.swift */,
+				96CA377E26BD53E100865CEB /* SettingsTableView.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		DE2B10F727E1D057005280DB /* RequestWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B10F827E1D060005280DB /* DefaultRequestWrapper.swift */,
+				DE2B10FA27E1D071005280DB /* XORRequestWrapper.swift */,
+			);
+			path = RequestWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1831,10 +1873,12 @@
 				96CA386326BD53E200865CEB /* GetCourcesResponseMapper.swift in Sources */,
 				96CA386726BD53E200865CEB /* TestMode.swift in Sources */,
 				96CA38D226BD53E200865CEB /* StatsViewController.swift in Sources */,
+				DE2B10EF27E1AB66005280DB /* OnboardingScope.swift in Sources */,
 				96CA38CE26BD53E200865CEB /* CourseCollectionCell.swift in Sources */,
 				96CA38C126BD53E200865CEB /* TestStatsAnswer.swift in Sources */,
 				96CA384526BD53E200865CEB /* GetPaygateRequest.swift in Sources */,
 				96CA38DF26BD53E200865CEB /* MainStatsView.swift in Sources */,
+				DE2B10F227E1B089005280DB /* SSlideModesView.swift in Sources */,
 				96CA38F826BD53E200865CEB /* OSlidePlanView.swift in Sources */,
 				96CA389926BD53E200865CEB /* CourseViewCoordinator.swift in Sources */,
 				96CA38EB26BD53E200865CEB /* WelcomeSlideIndicatorView.swift in Sources */,
@@ -1869,6 +1913,7 @@
 				96CA388326BD53E200865CEB /* STUnlockCell.swift in Sources */,
 				96CA386A26BD53E200865CEB /* GetTestModeResponseMapper.swift in Sources */,
 				96CA387E26BD53E200865CEB /* SettingsOpener.swift in Sources */,
+				DE2B10F927E1D060005280DB /* DefaultRequestWrapper.swift in Sources */,
 				96CA387D26BD53E200865CEB /* RateUs.swift in Sources */,
 				96CA38FB26BD53E200865CEB /* OSlideWhenTakingView.swift in Sources */,
 				96CA387C26BD53E200865CEB /* SettingsViewModel.swift in Sources */,
@@ -1901,6 +1946,7 @@
 				96CA384B26BD53E200865CEB /* GetTestStatsResponseMapper.swift in Sources */,
 				96CA383F26BD53E200865CEB /* PaygateOption.swift in Sources */,
 				96CA38B826BD53E200865CEB /* PaygateMainInfoCell.swift in Sources */,
+				DE2B10F627E1B2C4005280DB /* SSlideReferencesView.swift in Sources */,
 				96CA38F426BD53E200865CEB /* OSlideView.swift in Sources */,
 				96CA382C26BD53E100865CEB /* Toast.swift in Sources */,
 				96CA38C326BD53E200865CEB /* TestStatsDescriptionElement.swift in Sources */,
@@ -2015,6 +2061,7 @@
 				96CA38D626BD53E200865CEB /* StatsView.swift in Sources */,
 				96CA382B26BD53E100865CEB /* ImagePicker.swift in Sources */,
 				96CA38B226BD53E200865CEB /* AVPlayerView.swift in Sources */,
+				DE2B10FB27E1D071005280DB /* XORRequestWrapper.swift in Sources */,
 				96CA383426BD53E100865CEB /* GradientView.swift in Sources */,
 				96CA387526BD53E200865CEB /* StatsManagerCore.swift in Sources */,
 				96CA38A126BD53E200865CEB /* ExplanationCell.swift in Sources */,
@@ -2022,6 +2069,7 @@
 				96CA38CC26BD53E200865CEB /* CoursesViewModel.swift in Sources */,
 				96CA389D26BD53E200865CEB /* QuestionReferenceCell.swift in Sources */,
 				96CA38AB26BD53E200865CEB /* TestElement.swift in Sources */,
+				DE2B10F427E1B195005280DB /* SSlideView.swift in Sources */,
 				96CA389226BD53E200865CEB /* SCBriefDayView.swift in Sources */,
 				96CA38BC26BD53E200865CEB /* TestStatsDescriptioCell.swift in Sources */,
 				96CA38A626BD53E200865CEB /* TestBottomButtonState.swift in Sources */,
