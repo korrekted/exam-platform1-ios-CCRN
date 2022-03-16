@@ -4,7 +4,6 @@
 //
 //  Created by Vitaliy Zagorodnov on 30.01.2021.
 //
-
 import UIKit
 
 final class TestView: UIView {
@@ -54,6 +53,7 @@ private extension TestView {
             tableView.rightAnchor.constraint(equalTo: rightAnchor),
             tableView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
+        
         
         NSLayoutConstraint.activate([
             bottomView.leadingAnchor.constraint(equalTo: leadingAnchor),

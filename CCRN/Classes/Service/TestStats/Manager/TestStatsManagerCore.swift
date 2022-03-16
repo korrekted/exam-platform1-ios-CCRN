@@ -11,6 +11,7 @@ final class TestStatsManagerCore: TestStatsManager {
     private let defaultRequestWrapper = DefaultRequestWrapper()
 }
 
+
 extension TestStatsManagerCore {
     func retrieve(userTestId: Int) -> Single<TestStats?> {
         guard let userToken = SessionManagerCore().getSession()?.userToken else {

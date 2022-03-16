@@ -1,6 +1,6 @@
 //
 //  SSlideView.swift
-//  CCRN
+//  CSCS
 //
 //  Created by Андрей Чернышев on 16.03.2022.
 //

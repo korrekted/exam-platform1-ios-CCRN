@@ -22,11 +22,11 @@ final class OnboardingView: UIView {
         }
     }
     
-    private lazy var scope = OnboardingScope()
-    
     lazy var scrollView = makeScrollView()
     lazy var progressView = makeProgressView()
     lazy var previousButton = makePreviousButton()
+    
+    private lazy var scope = OnboardingScope()
     
     private lazy var contentViews: [OSlideView] = {
         [
