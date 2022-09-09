@@ -32,6 +32,7 @@
 		96E362522673513E00D49D4E /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96E3624F2673513E00D49D4E /* SF-Pro-Rounded-Bold.otf */; };
 		96E362552673536600D49D4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96E362542673536600D49D4E /* GoogleService-Info.plist */; };
 		C6175125A3FBAD6021593F11 /* Pods_CCRN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39858DEFB6A0E8305DC5ECC /* Pods_CCRN.framework */; };
+		DE1D022828CB18E7003AC1FD /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE1D022728CB18E7003AC1FD /* Onboarding.Chart.json */; };
 		DEC364A528990480005372BC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC362E028990480005372BC /* UIColorExtension.swift */; };
 		DEC364A628990480005372BC /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC362E128990480005372BC /* Collection+Extension.swift */; };
 		DEC364A728990480005372BC /* Observable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC362E228990480005372BC /* Observable+Utils.swift */; };
@@ -334,7 +335,6 @@
 		DEC365D028990480005372BC /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3648728990480005372BC /* OImproveCell.swift */; };
 		DEC365D128990480005372BC /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3648928990480005372BC /* ReferencesTableCell.swift */; };
 		DEC365D228990480005372BC /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3648A28990480005372BC /* ReferencesTableView.swift */; };
-		DEC365D328990480005372BC /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DEC3648C28990480005372BC /* Onboarding.Chart.json */; };
 		DEC365D428990480005372BC /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3648D28990480005372BC /* OWhenStudyCell.swift */; };
 		DEC365D528990480005372BC /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3648F28990480005372BC /* WelcomeSlide1View.swift */; };
 		DEC365D628990480005372BC /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3649028990480005372BC /* WelcomeSlideIndicatorView.swift */; };
@@ -421,6 +421,7 @@
 		96E362542673536600D49D4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A39858DEFB6A0E8305DC5ECC /* Pods_CCRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB714C200E18346EBDB21838 /* Pods-CCRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRN.release.xcconfig"; path = "Target Support Files/Pods-CCRN/Pods-CCRN.release.xcconfig"; sourceTree = "<group>"; };
+		DE1D022728CB18E7003AC1FD /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC362E028990480005372BC /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DEC362E128990480005372BC /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		DEC362E228990480005372BC /* Observable+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Utils.swift"; sourceTree = "<group>"; };
@@ -723,7 +724,6 @@
 		DEC3648728990480005372BC /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DEC3648928990480005372BC /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DEC3648A28990480005372BC /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DEC3648C28990480005372BC /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC3648D28990480005372BC /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DEC3648F28990480005372BC /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DEC3649028990480005372BC /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -2273,7 +2273,7 @@
 		DEC3648B28990480005372BC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DEC3648C28990480005372BC /* Onboarding.Chart.json */,
+				DE1D022728CB18E7003AC1FD /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2382,12 +2382,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC365F0289904BC005372BC /* SF-Pro-Rounded-Black.otf in Resources */,
-				DEC365D328990480005372BC /* Onboarding.Chart.json in Resources */,
 				96E362472673513600D49D4E /* LaunchScreen.storyboard in Resources */,
 				96E362552673536600D49D4E /* GoogleService-Info.plist in Resources */,
 				96E3624A2673513A00D49D4E /* Localizable.strings in Resources */,
 				96E360602673505700D49D4E /* Assets.xcassets in Resources */,
 				96E362502673513E00D49D4E /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				DE1D022828CB18E7003AC1FD /* Onboarding.Chart.json in Resources */,
 				96E362522673513E00D49D4E /* SF-Pro-Rounded-Bold.otf in Resources */,
 				96E362512673513E00D49D4E /* SF-Pro-Rounded-Regular.otf in Resources */,
 			);
@@ -2831,7 +2831,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 17;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2840,7 +2840,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.ccrn.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CCRN Widget AppStore";
@@ -2858,7 +2858,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 17;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2867,7 +2867,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.ccrn.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CCRN Widget AppStore";
@@ -3003,7 +3003,7 @@
 				CODE_SIGN_ENTITLEMENTS = CCRN/CCRN.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 17;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/CCRN/Resource/Info.plist";
@@ -3012,7 +3012,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.ccrn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CCRN AppStore";
@@ -3032,7 +3032,7 @@
 				CODE_SIGN_ENTITLEMENTS = CCRN/CCRN.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 17;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/CCRN/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -3040,7 +3040,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.ccrn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CCRN AppStore";
